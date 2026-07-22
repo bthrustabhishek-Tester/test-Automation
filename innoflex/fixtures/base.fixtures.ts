@@ -1,0 +1,1 @@
+import { test as base } from '@playwright/test';\nimport { LoginPage } from '../src/pages/LoginPage';\n\ntype Pages = {\n  loginPage: LoginPage;\n};\n\nexport const test = base.extend<Pages>({\n  loginPage: async ({ page }, use) => {\n    await use(new LoginPage(page));\n  },\n});\nexport { expect } from '@playwright/test';
