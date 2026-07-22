@@ -1,0 +1,1 @@
+import { test } from '../fixtures/base.fixtures';\n\ntest.describe('Innoflex Test Suite', () => {\n  test('Run login page tests', async ({}) => {\n    // Running login page tests\n  });\n});
