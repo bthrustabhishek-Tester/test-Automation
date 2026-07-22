@@ -1,0 +1,5 @@
+{
+  "name": "login-flow-tests",
+  "devDependencies": { "@playwright/test": "^1.47.0" },
+  "scripts": { "test": "playwright test" }
+}
