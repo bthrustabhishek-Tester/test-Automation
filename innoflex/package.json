@@ -1,0 +1,1 @@
+{\n  \"name\": \"innoflex\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"npx playwright test\",\n    \"test:headed\": \"npx playwright test --headed\",\n    \"report\": \"npx playwright show-report\"\n  },\n  \"devDependencies\": {\n    \"@playwright/test\": \"^1.29.0\"\n  }\n}
